@@ -7,7 +7,7 @@ public class MaxTest {
     @Test
     public void givenIntegerMaxNumberAtFirstPosition_ReturnMaximumValueSame() {
         Findmax maxValue=new Findmax();
-        Integer result =maxValue.testMaximum(9, 8, 3,2);
+        Integer result = maxValue.testMaximum(9, 8, 3,2);
         Assert.assertSame(9, result);
     }
 
@@ -59,7 +59,7 @@ public class MaxTest {
     @Test
     public void givenStringMaxNumberAtThirdPosition_ReturnMaximumValueSame() {
         Findmax maxValue=new Findmax();
-        String result =maxValue.testMaximum("Abc","Mno", "Pqr", "Xyz");
+        String result =maxValue.testMaximum("Abc","Mno", "Xyz","Pqr");
         Assert.assertEquals("Xyz", result);
     }
 }
