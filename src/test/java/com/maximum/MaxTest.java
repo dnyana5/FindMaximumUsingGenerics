@@ -42,6 +42,26 @@ public class MaxTest {
         Float result = maxValue.max(6.0f,7.0f,8.0f);
         Assert.assertEquals(8.0f,result,0);
     }
+    @Test
+    public void givenStringMaxNumberAtFirstPosition_ReturnMaximumValueSame() {
+        Findmax maxValue=new Findmax();
+        String result =maxValue.max("Xyz", "Pqr","Abc" );
+        Assert.assertEquals("Xyz", result);
+    }
+
+    @Test
+    public void givenStringMaxNumberAtSecondPosition_ReturnMaximumValueSame() {
+        Findmax maxValue=new Findmax();
+        String result =maxValue.max("Abc", "Xyz", "Pqr");
+        Assert.assertEquals("Xyz", result);
+    }
+
+    @Test
+    public void givenStringMaxNumberAtThirdPosition_ReturnMaximumValueSame() {
+        Findmax maxValue=new Findmax();
+        String result =maxValue.max("Abc", "Pqr", "Xyz");
+        Assert.assertEquals("Xyz", result);
+    }
 }
 
 
