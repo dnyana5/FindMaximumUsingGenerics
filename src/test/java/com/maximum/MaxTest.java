@@ -17,6 +17,12 @@ public class MaxTest {
         Integer result = maxValue.max(5,19,3);
         Assert.assertSame(19,result);
     }
+    @Test
+    public void givenMaxNumberAtThirdPosition_ReturnMaximumValueSame() {
+        Findmax maxValue = new Findmax();
+        Integer result = maxValue.max(16,19,35);
+        Assert.assertSame(35,result);
+    }
 }
 
 
