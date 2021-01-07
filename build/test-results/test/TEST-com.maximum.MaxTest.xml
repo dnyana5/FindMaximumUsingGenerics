@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maximum.MaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-07T01:01:50" hostname="DESKTOP-BLCU99U" time="0.003">
+<testsuite name="com.maximum.MaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-07T01:27:01" hostname="DESKTOP-BLCU99U" time="0.003">
   <properties/>
-  <testcase name="givenMaxNumberAtThirdPosition_ReturnMaximumValueSame" classname="com.maximum.MaxTest" time="0.003"/>
+  <testcase name="givenFloatMaxNumberAtFirstPosition_ReturnMaximumValueSame" classname="com.maximum.MaxTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
