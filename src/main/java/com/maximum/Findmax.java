@@ -2,13 +2,13 @@ package com.maximum;
 
 import java.util.Scanner;
 public class Findmax {
-    private static Integer max(Integer num1,Integer num2,Integer num3) {
-        Integer max = num1;
-        if (num2.compareTo(max) > 0) {
-            max = num2;
+    public static Integer max(Integer first, Integer second, Integer third) {
+        Integer max = first;
+        if (second.compareTo(max) > 0) {
+            max = second;
         }
-        if (num3.compareTo(max) > 0) {
-            max = num3;
+        if (third.compareTo(max) > 0) {
+            max = third;
         } return max;
     }
 
